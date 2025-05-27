@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    padding: 30px 70px;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 70px;
 }
 a{
    text-decoration: none;
@@ -16,7 +16,7 @@ a{
    margin-right: 25px;
    transition: 0.5s;
 }
-nav button{
+.tickets{
     height: 50px;
     width: 150px;
     color: #f0f6ff;
@@ -27,11 +27,48 @@ nav button{
     font-family: Roboto;
     transition: 0.5s;
 }
-nav button:hover{
+.tickets:hover{
     background-color: #0355da;
     transition: 0.5s;
 }
 a:hover{
     color: #116dff;
     transition: 0.5s;
+}
+footer{
+    background-color: #191919;
+    padding: 50px 70px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+    align-items: center;
+}
+footer h1{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+.footerhead{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+}
+.desc{
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+article p{
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
