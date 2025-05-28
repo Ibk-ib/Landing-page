@@ -198,3 +198,19 @@ article p{
     font-weight: 400;
     line-height: 26px;
 }
+
+                    /* ORGANISERS */
+#organisers{
+    background-color: #f0f6ff;
+}
+
+
+                    /* SPONSORS */
+#sponsors{
+    justify-items: center;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
