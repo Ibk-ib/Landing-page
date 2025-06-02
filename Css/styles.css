@@ -81,6 +81,18 @@ article p{
     font-weight: 400;
     text-align: center;
 }
+.buttonfooter{
+    height: 50px;
+    width: 150px;
+    color: #f0f6ff;
+    background-color: #116dff;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto;
+    transition: 0.5s; 
+    margin-top: 15px;
+}
 
                                 /* HOME */
 #home{
@@ -209,10 +221,19 @@ article p{
                                 /* SPEAKERS */
 
 
+#speakers{
+    margin-bottom: 150px;
+} 
+.speakersdiv{
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
 .speakersrow{
     display: flex;
     padding: 0 70px;
     column-gap: 50px;
+    margin-top: 85px;
 }
 .speakername{
     color: #191919;
@@ -233,17 +254,45 @@ article p{
                     /* ORGANISERS */
 #organisers{
     background-color: #f0f6ff;
+    padding: 110px 70px;
+}
+.organdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonorgan{
+    height: 50px;
+    width: 200px;
+    color: #f0f6ff;
+    background-color: #116dff;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto;
+    transition: 0.5s; 
+    margin-top: 15px;
 }
 
 
                     /* SPONSORS */
 #sponsors{
     justify-items: center;
+    padding: 0px 70px; 
+    margin-top: 100px;
 }
 .logos{
     display: flex;
     justify-content: space-between;
 } 
+.logoimages{
+    padding: 0px 70px; 
+    margin-bottom: 100px; 
+    margin-top: 50px;
+}
+
+
+
+
 @media (max-width: 728px) {
     
     header{
@@ -384,6 +433,108 @@ article p{
     margin-top: -4px;
 }
 .formobile{
+    margin-bottom: 40px;
+}
+
+                    /* speakers */
+#speakers{
+    margin-bottom: 50px;
+} 
+.speakersdiv{
+    padding: 0 25px;
+    display: block;
+}
+.speakersrow{
+    display: block;
+    padding: 0 25px;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.speakername{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.speakerjob{
+    color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+                        /* organizers */
+#organisers{
+    background-color: #f0f6ff;
+    padding: 50px 25px;
+}
+.organdiv{
+    display: block;
+}
+
+                    /* sponsors */
+#sponsors{
+    padding: 0px 25px; 
+    margin-top: 50px;
+}
+.sponsordiv{
+    justify-items: center;
+    text-align: center;
+}
+.logoimages{
+    padding: 0px 70px; 
+    margin-bottom: 40px; 
+    margin-top: 20px;
+}
+.logos{
+    display: block;
+} 
+
+
+                /* footer */
+footer{
+    background-color: #191919;
+    padding: 20px 25px;
+}
+.row{
+    display: block;
+    margin: 5px 0;
+}
+footer h1{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.footerhead{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 29px;
+}
+.desc{
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+}
+article p{
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.divbutton{
+    justify-self: center;
     margin-bottom: 40px;
 }
 }
