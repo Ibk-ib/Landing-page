@@ -83,16 +83,28 @@ article p{
 }
 
                                 /* HOME */
-
-.beside{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 70px;
+#home{
+    margin-top: 40px;
 }
+
+.first-section{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 90px;
+}
+
+.firstimage{
+    width: 100%;
+}
+.divimage{
+    padding: 0 90px;
+}
+
 .design{
     color: #191919;
     font-family: "Noto Serif", serif;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 400;
 }
 .dateplace{
@@ -101,6 +113,7 @@ article p{
     font-size: 22px;
     font-weight: 400;
     line-height: 24px;
+    text-align: end;
 }
 .challenge{
     color: #191919;
@@ -111,6 +124,13 @@ article p{
 
 
                                     /* ABOUT */
+
+#about{ 
+    margin-top: 130px; 
+    margin-bottom: 150px; 
+    padding: 0 70px;
+}
+
 
 .about{
     display: flex;
@@ -129,6 +149,7 @@ article p{
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
+    width: 485px;
 }
 .special{
     color: #3a3a3a;
@@ -136,19 +157,29 @@ article p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    width: 485px;
 }
 
 
                                 /* SCHEDULE */
 #eventschedule{
     background-color: #f0f6ff;
-    padding: 100px 0;
-}  
+    padding: 100px 0px;
+    margin-bottom: 150px;
+} 
+
+.sched{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
 .eventrow{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 0 70px;
     column-gap: 20px;
+    margin-top: 85px;
 }                             
 .time{
     color: #116dff;
@@ -212,4 +243,147 @@ article p{
 .logos{
     display: flex;
     justify-content: space-between;
+} 
+@media (max-width: 728px) {
+    
+    header{
+        padding: 40px 25px;
+    }
+
+    #home{
+        margin-top: 5px;
+        width: 100%;
+    }    
+    .first-section {
+        display: block;
+        flex-wrap: wrap;
+        padding: 0 25px;
+        width: 100%;
+    }
+
+    .design{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .dateplace{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: start;
+        margin-top: 0;
+    }
+    .challenge{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .firstimage{
+        width: 270px;
+    }
+    .divimage{
+        padding: 0 25px;
+    }
+    nav{
+        display: none;
+    }
+       
+    
+
+    a{
+        display: none;
+    }
+
+    .tickets{
+        display: none;
+    }
+
+
+    /* about */
+    
+    #about{ 
+        margin-top: 50px; 
+        margin-bottom: 30px; 
+        padding: 0 25px;
+        width: 100%;
+    }
+    
+    
+    .about{
+        display: block;
+    }
+    
+    .event{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .des{
+        color: #3a3a3a;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 100%;
+    }
+    .special{
+        color: #3a3a3a;
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 100%;
+    }
+
+                    /* schedule */
+#eventschedule{
+    background-color: #f0f6ff;
+    padding: 10px 0;
+    margin-bottom: 50px;
+} 
+.sched{
+    display: block;
+    padding: 0 25px;
+    margin-bottom: 40px;
+}
+.eventrow{
+    display: block;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0;
+}
+
+.time{
+    color: #116dff;
+    font-family: "Noto Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.hd{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.ds{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: -4px;
+}
+.formobile{
+    margin-bottom: 40px;
+}
 }
