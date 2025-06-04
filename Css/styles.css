@@ -299,11 +299,7 @@ article p{
     margin-top: 50px;
 }
 
-
-
-
-@media (max-width: 728px) {
-    
+@media (max-width: 992px) {
     header{
         padding: 40px 25px;
     }
@@ -511,6 +507,267 @@ article p{
 footer{
     background-color: #191919;
     padding: 20px 25px;
+}
+.row{
+    display: block;
+    margin: 5px 0;
+}
+footer h1{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.footerhead{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 29px;
+}
+.desc{
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+}
+article p{
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.divbutton{
+    justify-self: center;
+    margin-bottom: 40px;
+}
+.buttonfooter:hover{
+    background-color: #0355da;
+    transition: 0.5s;
+}
+}
+
+
+
+@media (max-width: 728px) {
+    
+    header{
+        padding: 40px 25px;
+        width: 100%;
+    }
+
+    #home{
+        margin-top: 5px;
+        width: 100%;
+    }    
+    .first-section {
+        display: block;
+        flex-wrap: wrap;
+        padding: 0 25px;
+    }
+
+    .design{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .dateplace{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: start;
+        margin-top: 0;
+    }
+    .challenge{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .firstimage{
+        width: 100%;
+    }
+    .divimage{
+        padding: 0 25px;
+    }
+    nav{
+        display: none;
+    }
+       
+    
+
+    a{
+        display: none;
+    }
+
+    .tickets{
+        display: none;
+    }
+
+
+    /* about */
+    
+    #about{ 
+        margin-top: 50px; 
+        margin-bottom: 30px; 
+        padding: 0 25px;
+        width: 100%;
+    }
+    
+    
+    .about{
+        display: block;
+    }
+    
+    .event{
+        color: #191919;
+        font-family: "Noto Serif", serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .des{
+        color: #3a3a3a;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 350px;
+    }
+    .special{
+        color: #3a3a3a;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 350px;
+    }
+
+                    /* schedule */
+#eventschedule{
+    background-color: #f0f6ff;
+    padding: 10px 0;
+    margin-bottom: 50px;
+    width: 100%;
+} 
+.sched{
+    display: block;
+    padding: 0 25px;
+    margin-bottom: 40px;
+}
+.eventrow{
+    display: block;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0;
+}
+
+.time{
+    color: #116dff;
+    font-family: "Noto Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.hd{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.ds{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: -4px;
+}
+.formobile{
+    margin-bottom: 40px;
+}
+
+                    /* speakers */
+#speakers{
+    margin-bottom: 50px;
+    width: 100%;
+} 
+.speakersdiv{
+    padding: 0 25px;
+    display: block;
+}
+.speakersrow{
+    display: block;
+    padding: 0 25px;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.speakername{
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.speakerjob{
+    color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+                        /* organizers */
+#organisers{
+    background-color: #f0f6ff;
+    padding: 50px 25px;
+    width: 100%;
+}
+.organdiv{
+    display: block;
+}
+.buttonorgan:hover{
+    background-color: #0355da;
+    transition: 0.5s;
+}
+
+                    /* sponsors */
+#sponsors{
+    padding: 0px 25px; 
+    margin-top: 50px;
+    width: 100%;
+}
+.sponsordiv{
+    justify-items: center;
+    text-align: center;
+}
+.logoimages{
+    padding: 0px 70px; 
+    margin-bottom: 40px; 
+    margin-top: 20px;
+}
+.logos{
+    display: block;
+} 
+
+
+                /* footer */
+footer{
+    background-color: #191919;
+    padding: 20px 25px;
+    width: 100%;
 }
 .row{
     display: block;
